@@ -26,12 +26,14 @@
     "react-bootstrap": "^1.0.0",
     "react-datepicker": "^2.15.0",
     "react-dom": "^16.13.1",
+    "react-router": "^5.2.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.3",
     "react-widgets": "^4.5.0",
     "typescript": "^3.9.7"
   },
   "scripts": {
+    "start": "react-scripts start",
     "debug": "env-cmd -f ./.env/.local react-scripts start",
     "build:dev": "env-cmd -f ./.env/.dev react-scripts build",
     "test": "react-scripts test",

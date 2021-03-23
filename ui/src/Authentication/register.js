@@ -40,6 +40,7 @@ function Register() {
   return (
     <div className="padding">
       <form onSubmit={submit}>
+        <div className="form-inner">
         <div className="form-group">
           <label>Email*:</label>
           <input
@@ -100,6 +101,7 @@ function Register() {
           />
         </div>
         <input type="submit" value="Submit" />
+        </div>
       </form>
       {error && (
         <div className="alert alert-danger" role="alert">
