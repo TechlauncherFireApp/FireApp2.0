@@ -1,5 +1,5 @@
 export const att = (s: string, b?: boolean): any => {
-  if ((b !== undefined) && (b === false)) return {};
+  if ((b !== undefined) && !b) return {};
   return { [s]: '' };
 };
 
