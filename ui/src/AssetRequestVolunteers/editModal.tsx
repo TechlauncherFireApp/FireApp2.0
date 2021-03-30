@@ -260,7 +260,7 @@ export default class EditModal extends React.Component<any, State> {
                               <div title="Already assigned">
                                 {t.firstName} {t.lastName}{' '}
                                 <img
-                                  src={require('../images/assigned.png')}
+                                  src='/images/assigned.png'
                                   alt=""
                                 />
                               </div>

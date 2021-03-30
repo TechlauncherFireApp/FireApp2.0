@@ -74,7 +74,7 @@ export default class Position extends React.Component<any, State> {
     result.push(
       <div>
         - {quals[quals.length - 1]}{' '}
-        <img src={require('../images/collapse.png')} alt="" />
+        <img src='/images/collapse.png' alt="" />
       </div>
     );
     return result;
@@ -129,7 +129,7 @@ export default class Position extends React.Component<any, State> {
                   this.displayQualsList(position.volunteer.qualifications)
                 ) : (
                   <div>
-                    view <img src={require('../images/expand.png')} alt="" />
+                    view <img src='/images/expand.png' alt="" />
                   </div>
                 )}
               </td>
